@@ -3,7 +3,7 @@
     "path": "~/GitHub/ActuallyNotProject1/man/Cardiovascular.Rd",
     "project_path": "man/Cardiovascular.Rd",
     "type": "r_doc",
-    "hash": "0",
+    "hash": "2036036629",
     "contents": "",
     "dirty": false,
     "created": 1706500871475.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "12,12",
+        "cursorPosition": "8,3",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1706501006,
+    "lastKnownWriteTime": 1706503392,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1706501006132,
+    "last_content_update": 1706503392586,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,5 +1,0 @@
-library(ggplot2)
-library(readr)
-
-Cardiovascular_Disease_Dataset <- read_csv("data-raw/Cardiovascular_Disease_Dataset.csv")
-graph <- ggplot()

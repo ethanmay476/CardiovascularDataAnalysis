@@ -2,6 +2,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
+data("Cardiovascular")
 
 Cardiovascular_long_num <- Cardiovascular %>%
   pivot_longer(cols = c(age,restingBP ,serumcholestrol, maxheartrate,oldpeak,noofmajorvessels),

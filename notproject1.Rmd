@@ -53,7 +53,8 @@ ggplot(Cardiovascular_long_num, aes(x = target, y = value, fill = variable)) +
   labs(title = "Factors Contributing to Heart Disease in Patients",
        x = "Patient Characteristics")
 ```
-This Box plot includes all the numerical predictor variables put up against the target variable that shows whether or not the patient has heart disease. From this graph we can see which numerical variables have the most impact on the target variable. For instance we see that age and oldpeak are not very effective predictors of heart disease, while number of major blood vessles, and resting blood pressure are much better.  
+This Box plot includes all the numerical predictor variables put up against the target variable that shows whether or not the patient has heart disease. From this graph we can see which numerical variables have theinstall.packages("devtools")
+ most impact on the target variable. For instance we see that age and oldpeak are not very effective predictors of heart disease, while number of major blood vessles, and resting blood pressure are much better.  
   
   
 
@@ -74,3 +75,8 @@ This bar graph includes all of the categorical predictor variables paired agains
   
   
   In a previous project i was able to use random forests and knn models to help predict the target variable. From this I was able to learn how to create predictive models that are effective and avoid over fitting. The data set however does suffer from data bias, as every observation is a patient currently at a hospital. There is no observations of healthy patients. This limits the usefulness of these predictive models as it would only help people who already need to be hospitalized. If a data set included data from health patients who only came in for a physical, the models may be more useful.
+  
+  
+  
+Github:
+ethanmay476/ActuallyNotProject1

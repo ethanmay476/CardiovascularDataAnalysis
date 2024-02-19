@@ -9,8 +9,9 @@ Cardiovascular <- Cardiovascular %>% na.omit() %>%
   mutate(gender = factor(gender, levels = c(0, 1), labels = c("Female", "Male")))
 
 
-save(Cardiovascular,file = "Cardiovascular.RData")
+#save(Cardiovascular,file = "Cardiovascular.RData")
 
+usethis::use_data(Cardiovascular)
 
 
 

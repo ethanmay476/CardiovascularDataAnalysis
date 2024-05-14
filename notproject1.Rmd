@@ -53,8 +53,7 @@ ggplot(Cardiovascular_long_num, aes(x = target, y = value, fill = variable)) +
   labs(title = "Factors Contributing to Heart Disease in Patients",
        x = "Patient Characteristics")
 ```
-This Box plot includes all the numerical predictor variables put up against the target variable that shows whether or not the patient has heart disease. From this graph we can see which numerical variables have theinstall.packages("devtools")
- most impact on the target variable. For instance we see that age and oldpeak are not very effective predictors of heart disease, while number of major blood vessles, and resting blood pressure are much better.  
+This Box plot includes all the numerical predictor variables put up against the target variable that shows whether or not the patient has heart disease. From this graph we can see which numerical variables have the most impact on the target variable. For instance we see that age and oldpeak are not very effective predictors of heart disease, while number of major blood vessles, and resting blood pressure are much better.  
   
   
 
